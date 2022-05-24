@@ -4,7 +4,7 @@ pkgs.mkShell {
   buildInputs = with pkgs; [
     # pkgs.systemfd
     vgo2nix
-    go
+    go_1_17
     sqlite
   ];
 
